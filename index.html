@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wesley Santos | Portfólio Uninter</title>
+    <!-- Fazendo referência do caminho aos estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fazendo a referência do site de ícones que possivelmente irei utilizar -->
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+</head>
+<body>
+    <!-- Iniciando o cabeçalho com links que irei criar em seguida -->
+    <header class="header">
+        <!-- Colocando nome e RU no header fixado  -->
+        <a href="#" class="logo"><span>Wesley Santos <br> Uninter RU:4153842</span></a>
+        <nav class="navbar">
+            <a href="#" class="active">Portfolio</a>
+            <!-- Links para navegar na página conforme a seção -->
+            <a href="#skills">Skills</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#educacao">Educação</a>
+            <a href="#hobbies">Hobbies</a>
+        </nav>
+        <!-- Link para ir até o formulário "form" de contato -->
+        <a href="#contato-form" class="contato">Me contate!</a>
+    </header>
+
+    <!-- Conteúdo introdutório do portfólio/section -->
+    <section class="home">
+        <div class="home-content">
+            <!-- texto com h3 e h1 para título e texto -->
+            <h3>Olá</h3>
+            <h1>Me chamo <span>Wesley, <br></span> sou um estagiário da QA na empresa RRS Software</h1>
+            <p>Atualmente, sou estagiário na área de Garantia de Qualidade na RRS Software, onde trabalho na análise e aprimoramento de sistemas para garantir que nossos produtos atendam aos mais altos padrões de qualidade. Sou fluente em inglês, o que torna o entendimento de qualquer linguagem de programação muito mais fácil. Além disso, tenho um grande interesse pela música, possuindo habilidades avançadas tanto para aprender novas músicas quanto para compor minhas próprias.<br>Minha dedicação e paixão por essas áreas refletem meu compromisso com a excelência em tudo o que faço.</p>
+            <div class="btn-box">
+                <!-- botões com links que abrem novas guias até o meu perfil e o da minha empresa -->
+                <a href="https://www.linkedin.com/company/rrs-software-ltda-/mycompany/" target="_blank" rel="noopener noreferrer">
+                    <button class="btn-1">Conheça minha empresa</button>
+                </a>                
+                <a href="https://www.linkedin.com/in/wesley-santos-0906a0242/" target="_blank" rel="noopener noreferrer">
+                    <button class="btn-2">Meu perfil no linkedin</button>
+                </a>
+                <!-- <button class="btn-2">Experiência</button> -->
+            </div>
+        </div>
+        <!-- utilizando minha foto na mesma seção -->
+        <div class="img-box">
+            <img src="eu.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- nova seção para introduzir novos estilos -->
+    <section class="sobre">
+        <div class="sobre-img">
+            <!-- fazendo uso de uma imagem diferente -->
+            <img src="IoT-and-Trains.jpg" alt="">
+        </div>
+        <!-- nomemando classe (para css) e conteúdo -->
+        <div class="sobre-conteudo">
+            <h2 class="heading">Sobre <span>mim e minha empresa</span></h2>
+            <h3>Um breve contexto</h3>
+            <p>Sou Wesley Santos, como já mencionado, estou em um estágio promissor na área de Garantia de Qualidade na RRS Software, uma empresa dedicada ao desenvolvimento de soluções de software para o setor ferroviário. Embora nossa empresa ainda esteja em crescimento, já colaboramos com algumas das principais ferrovias do Brasil, também com o objetivo de chegar nas ferrovias mais carentes no futuro próximo. Atualmente também estamos expandindo para o mercado internacional.</p>
+            <p>No meu portfólio, você encontrará projetos nos quais trabalhei, desde música a análise e aprimoramento de sistemas até automação de testes e desenvolvimento de aplicativos. Esses projetos refletem minha dedicação à qualidade e meu interesse em aprender e crescer profissionalmente.</p>
+        </div>                    
+    </section>
+
+    <!-- criando seções para onde os links do header irão trazer ao clicar -->
+    <!-- seção e info das minhas habilidades "skills" -->
+    <section id="skills" class="skills section-offset">
+        <div class="container">
+            <!-- título -->
+            <h2>Skills</h2>
+            <!-- conteúdo utilizando quebras de linha "<br>" -->
+            <p>Nível Intermediário:<br>
+            - JavaScript: Utilizado principalmente para automação de testes e configuração de aplicações.<br>
+            - Playwright com JavaScript: Criação de testes unitários a testes de carga.</p>
+    
+            <p>Nível Básico/Intermediário:<br>
+            - Docker: Trabalho com arquivos de composição (`compose`) e arquivos de ambiente (`env`), além de depurar quando necessário.</p>
+    
+            <p>Nível Básico:<br>
+            - n8n: Realizando análises iniciais e começando a aprender a automatizar workflows para testes na aplicação.</p>
+    
+            <p>Além desses, possuo domínio em Inglês, estando em nível fluente, e experiência em análise e debug na aplicação onde sou responsável.</p>
+    
+            <p>Estes são apenas alguns dos meus skills na área de programação, e estou sempre buscando aprender e aprimorar minhas habilidades.</p>
+        </div>
+    </section>    
+
+    <!-- repetindo o mesmo mencionado para o restante das seções -->
+    <section id="projetos" class="projetos section-offset">
+        <div class="container">
+            <h2>Projetos</h2>
+            <p>Entre os meus projetos, os mais notáveis são:</p>
+            
+            <ul>
+                <li>
+                    <!-- aqui optei por descrever as minhas experiencias mas também criar links que o leitor possa acessar e visualizar esses outros projetos -->
+                    <a href="https://jam.dev/c/55d90106-ac42-4464-a7ae-bc99bc9a399e" target="_blank" rel="noopener noreferrer">Aplicativo desenvolvido na Atividade Extensionista II da Uninter</a>: Este projeto foi uma oportunidade única de aplicar os conhecimentos adquiridos durante meu estágio na RRS Software. Sem a experiência obtida lá, seria muito mais difícil desenvolver este aplicativo.
+                </li>
+                <li>
+                    <a href="https://martsyrt.github.io/NLW-esports-explorer/" target="_blank" rel="noopener noreferrer">Site para NLW Esports (Rocketseat)</a>: Este site foi desenvolvido para um evento gratuito em que participei. Foi uma excelente oportunidade de aprimorar minhas habilidades de desenvolvimento web.
+                </li>
+            </ul>
+    
+            <p>Estes são apenas alguns dos projetos em que estive envolvido. Estou sempre buscando novas oportunidades para aprender e crescer como desenvolvedor.</p>
+        </div>
+    </section>    
+    
+    <section id="educacao" class="educacao section-offset">
+        <div class="container">
+            <h2>Educação</h2>
+            <p>Minha jornada educacional mais marcante começou antes mesmo do Ensino Médio. Durante esse período, obtive uma sólida formação que se refletiu na minha aprovação no ENEM, o qual me possibilitou ingressar na UFPR no curso de Filosofia. Embora tenha alcançado esse marco, decidi seguir outro caminho naquela época.</p>
+            
+            <p>Em 2022, dei início aos meus estudos na Uninter no curso de Análise e Desenvolvimento de Sistemas. Esta experiência tem sido fundamental para o meu crescimento profissional, complementando o conhecimento adquirido anteriormente. Essencialmente, o meu trabalho na RRS Software tem funcionado como uma segunda faculdade, me ensinando e proporcionando aprendizados contínuos.</p>
+        </div>
+    </section>    
+
+    <section id="hobbies" class="hobbies section-offset">
+        <div class="container">
+            <h2>Hobbies</h2>
+            <p>Música não é apenas um hobby para mim, mas uma parte essencial e até uma extensão de quem eu sou. Vejo a música como uma criação orquestral de imensa complexidade, onde as notas tocadas nos instrumentos se combinam em uma melodia. Assim como o próprio Universo, onde tudo é vibração, é a orquestra contínua, sem início e fim da expressão entre o caos e harmonia universal.</p>
+            
+            <p>Além disso, tenho um grande interesse em "filosofar" no sentido mais puro da definição. Gosto de explorar questões sociais, políticas e filosóficas, entre outras, buscando entender o conhecimento em sua essência. Assim como na música, tenho um gosto por conhecimentos específicos, como o das civilizações antigas e perdidas.</p>
+        </div>
+    </section>
+
+    <!-- Criando inputs para me contatar -->
+    <!-- Ateção: input não está funcionante nesta etapa -->
+    <section id="contato-form" class="contato-form section-offset">
+        <h2 class="Me contate">Me <span>contate</span></h2>
+        <form action="#">
+            <!-- criando cada campo para entrada de dados e nomeando-os -->
+            <div class="input-box">
+                <input type="text" placeholder="Nome completo">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Número de contato">
+                <input type="text" placeholder="Assunto">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem" class="btn-1">            
+        </form>
+    </section>
+
+    <!-- footer com links que eu talvez use para deixar o visual mais estético, porém optei por não deixar os outros ícones se eles não vão ter links atribuídos -->
+    <footer class="footer">
+        <div class="social">
+            <!-- Removi os links e deixei somente o linkedin, pois não uso outras redes -->
+            <!-- <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a> -->
+            <a href="https://www.linkedin.com/in/wesley-santos-0906a0242/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square'></i></a>
+            <!-- <a href="#"><i class='bx bxl-facebook-square'></i></a> -->
+        </div>
+        <ul class="list">
+            <li><a href="#">De volta ao topo</a></li>
+            <!-- <li><a href="#">Skills</a></li>
+            <li><a href="#">Sobre mim</a></li>
+            <li><a href="#">Contato</a></li> -->
+        </ul>
+        <!-- Aqui seria a parte de "copyright" como é comumente utilizado em sites oficiais, mas resolvi deixar só meu nome e o da faculdade -->
+        <p class="copyright">Wesley | Uninter 2024</p>
+    </footer>
+</body>
+</html>
